@@ -1,0 +1,1 @@
+[a-link] (www.goog()le.com)

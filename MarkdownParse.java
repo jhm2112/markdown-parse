@@ -12,12 +12,22 @@ public class MarkdownParse {
         int currentIndex = 0;
         while(currentIndex < markdown.length()) {
             int nextOpenBracket = markdown.indexOf("[", currentIndex);
+            if(nextOpenBracket == -1){
+                break;
+            }
             int nextCloseBracket = markdown.indexOf("]", nextOpenBracket);
             int openParen = markdown.indexOf("(", nextCloseBracket);
             int closeParen = markdown.indexOf(")", openParen);
+            if(closeParen==-1){
+                return toReturn;
+            }
+            if(markdown.substring(closeParen-1,closeParen).compareTo("(")==0){
+                closeParen = markdown.indexOf(")", closeParen+1);
+            }
             toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
         }
+
         return toReturn;
     }
     public static void main(String[] args) throws IOException {
