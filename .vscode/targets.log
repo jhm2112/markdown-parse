@@ -6,15 +6,11 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
-make: *** No rule to make target `all'.  Stop.
- 
 
-# Make data base, printed on Fri Feb 25 13:45:35 2022
+# Make data base, printed on Thu Mar 10 13:40:42 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -40,11 +36,11 @@ MAKEFILE_LIST :=  makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/44/9vp7rvz924v7cn0r9325794c0000gn/T/vscode-ipc-20c764c8-f06a-4f11-b914-5a92c74bc7e0.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/44/9vp7rvz924v7cn0r9325794c0000gn/T/vscode-ipc-39e3b20b-e671-467f-819f-fae41a3504e6.sock
 # environment
 VSCODE_CWD = /
 # environment
-Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.bKDVMQoOAV/Render
+Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.gCqyv3CBx1/Render
 # environment
 PATH = /Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/reshi/Library/Python/3.9/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/reshi/opt/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/reshi/Library/Python/3.9/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/reshi/JUNIT
 # environment
@@ -54,7 +50,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.ZOxWROivR2/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.iAzrCKV2yj/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -64,13 +60,13 @@ PWD = /Users/reshi/Documents/GitHub/markdown-parse
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /Users/reshi
 # default
 MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/reshi/Library/Application Support/Code/CachedData/f80445acd5a3dadef24aa209168452a3d97cc326
+VSCODE_CODE_CACHE_PATH = /Users/reshi/Library/Application Support/Code/CachedData/c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
 # environment
 LOGNAME = reshi
 # environment
@@ -108,7 +104,7 @@ TMPDIR = /var/folders/44/9vp7rvz924v7cn0r9325794c0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/reshi/Library/Application Support/Code/1.64.2-main.sock
+VSCODE_IPC_HOOK = /Users/reshi/Library/Application Support/Code/1.65.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -116,7 +112,7 @@ MFLAGS = -Rrqp
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
-XPC_SERVICE_NAME = com.microsoft.VSCode.7220
+XPC_SERVICE_NAME = com.microsoft.VSCode.7572
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -140,7 +136,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 937
+VSCODE_PID = 1315
 # variable set hash-table stats:
 # Load=63/1024=6%, Rehash=0, Collisions=1/87=1%
 
@@ -203,7 +199,6 @@ makefile:
 MarkdownParse.class: MarkdownParse.java
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  commands to execute (from `makefile', line 2):
 	javac MarkdownParse.java
@@ -211,15 +206,12 @@ MarkdownParse.class: MarkdownParse.java
 
 # Not a target:
 MarkdownParseTest.java:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 .DEFAULT:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -243,6 +235,8 @@ MarkdownParse.java:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri Feb 25 13:45:35 2022
+# Finished Make data base on Thu Mar 10 13:40:42 2022
 
+ 
+make: *** No rule to make target `all'.  Stop.
  
